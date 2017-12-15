@@ -1,0 +1,17 @@
+{
+    "name": "ri356/php-mail",
+    "authors": [
+        {
+            "name": "Wu Ming-Hsueh",
+            "email": "ri3567@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MailExercise\\": "app/"
+        }
+    }
+}
